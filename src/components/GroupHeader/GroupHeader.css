@@ -1,0 +1,15 @@
+.group-header{
+    display: flex;
+    justify-content: space-between;
+    padding:2px 4px;
+    align-items: center;
+}
+.p-1 , .p-2{
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+
+.gray{
+    color: #6b7280;
+}
