@@ -19,7 +19,7 @@ function GroupHeader({ grouptitle, count }) {
     return (
         <div className='group-header'>
             <div className='p-1'>
-            {grouping === 'user' && <UserIcon user={users.find(u => u.name === grouptitle)}/> }
+            {grouping === 'user' && users.find(u => u.name === grouptitle) && <UserIcon user={users.find(u => u.name === grouptitle)}/> }
             {
                 grouping === 'status' && <StatusIcon status={grouptitle}/>
             }
